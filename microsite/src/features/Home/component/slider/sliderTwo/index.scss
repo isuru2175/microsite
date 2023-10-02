@@ -1,0 +1,76 @@
+
+.background-container-slide-2{
+    .carousel-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .carousel-slide {
+          background-color: rgba(0, 0, 0, 0.6);
+          padding: 20px;
+          border-radius: 5px;
+          width: 250px;
+          margin-right: -95px;
+          border-radius: 25px 0;
+        }
+        
+        .carousel-text {
+          color: white;
+          margin: 0;
+        }
+        .panel-title{
+            color: white;
+        }
+        @media(max-width:767px){
+          .carousel.carousel-slider .control-arrow {
+            top: inherit;
+            color: #fff;
+            font-size: 26px;
+            bottom: 0;
+            margin-top: 0;
+            padding: 5px;
+            position: fixed;
+            height: 40px;
+            bottom: 180px;
+        }
+        .carousel .control-next.control-arrow {
+          right: inherit;
+          margin-left: 40px;
+      }
+      .carousel .control-prev.control-arrow {
+        left: inherit;
+        margin-right: 40px;
+    }
+        }
+        @media(max-width:767px){
+          .carousel.carousel-slider .control-arrow {
+         
+            bottom: 140px;
+        }
+        }
+      }
+      .link-text{
+        position: absolute;
+        color: white;
+        right: 75px;
+        font-size: 21px;
+        top: 37px;
+      }
+      
+}
+.mb-3{
+  margin-bottom: 40px !important;
+}
+
+.background-container-slide-2::before {
+    content: "";
+    // background-image: url("https://i.pinimg.com/736x/bf/ae/3f/bfae3fa83ae7efd6b7b56c3df0fac9bf--funny-wallpapers-widescreen-wallpaper.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:0;
+    filter: blur(4px);
+    opacity: 0.4;
+}

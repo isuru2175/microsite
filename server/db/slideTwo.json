@@ -1,0 +1,28 @@
+{
+  "title": "Donec Nec Justo",
+  "linkText": "Discover More",
+  "paragraphText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  "backGroundImage": "https://i.pinimg.com/736x/bf/ae/3f/bfae3fa83ae7efd6b7b56c3df0fac9bf--funny-wallpapers-widescreen-wallpaper.jpg",
+  "CarouselSlides": [
+    {
+      "id": 1,
+      "title": "Lorem Ipsum 1",
+      "paragraphText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a"
+    },
+    {
+      "id": 2,
+      "title": "Lorem Ipsum 2",
+      "paragraphText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a"
+    },
+    {
+      "id": 3,
+      "title": "Lorem Ipsum 3",
+      "paragraphText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a"
+    },
+    {
+      "id": 4,
+      "title": "Lorem Ipsum 4",
+      "paragraphText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a"
+    }
+  ]
+}
